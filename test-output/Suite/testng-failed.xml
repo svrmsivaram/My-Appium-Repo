@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="classes">
+  <test name="Test(failed)" parallel="classes">
+    <classes>
+      <class name="day3.OlaSession.MultiTouch">
+        <methods>
+          <include name="Mulititouch"/>
+        </methods>
+      </class> <!-- day3.OlaSession.MultiTouch -->
+      <class name="day3.OlaSession.OlaAppTouchAction">
+        <methods>
+          <include name="ola"/>
+        </methods>
+      </class> <!-- day3.OlaSession.OlaAppTouchAction -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
